@@ -30,6 +30,7 @@ body {
 
 .menu {
   display: flex;
+  column-gap: 40px;
 }
 .list {
   display: flex;
