@@ -74,6 +74,7 @@ img {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .menu-item {
   padding: 24px 0 24px;
@@ -84,7 +85,6 @@ img {
   display: flex;
   align-items: center;
   column-gap: 76px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .list {
@@ -95,7 +95,6 @@ img {
 
 /* Address */
 .menu-contacts {
-  display: flex;
   font-style: normal;
 }
 
@@ -114,6 +113,10 @@ img {
   color: #404bbf;
 }
 
+.contact-links {
+  display: flex;
+  gap: 40px;
+}
 .link {
   text-decoration: none;
 }
