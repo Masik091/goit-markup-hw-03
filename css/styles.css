@@ -350,9 +350,9 @@ button {
 }
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   column-gap: 24px;
-  row-gap: 48px;
+  margin-bottom: 72px;
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
