@@ -80,8 +80,9 @@ img {
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
-.menu-item {
-  padding: 24px 0 24px;
+.menu-header-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-header-navigation {
@@ -89,6 +90,10 @@ img {
   align-items: center;
   column-gap: 76px;
   display: flex;
+}
+.menu-header {
+  display: flex;
+  column-gap: 40px;
 }
 
 .list {
@@ -100,8 +105,6 @@ img {
 /* Address */
 .menu-contacts {
   font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 
 .contacts {
@@ -121,7 +124,7 @@ img {
 
 .contact-links {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
 }
 .link {
   text-decoration: none;
