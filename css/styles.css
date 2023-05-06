@@ -85,6 +85,7 @@ img {
   list-style: none;
   align-items: center;
   column-gap: 76px;
+  display: flex;
 }
 
 .list {
