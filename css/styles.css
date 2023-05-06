@@ -85,6 +85,10 @@ img {
   padding-bottom: 24px;
 }
 
+.menu-item {
+  padding: 24px 0;
+}
+
 .page-header-navigation {
   list-style: none;
   align-items: center;
@@ -93,7 +97,7 @@ img {
 }
 .menu-header {
   display: flex;
-  column-gap: 40px;
+  row-gap: 40px;
 }
 
 .list {
