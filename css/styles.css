@@ -326,7 +326,7 @@ button {
 }
 .portfolio-list {
   display: flex;
-  justify-content: cebter;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
