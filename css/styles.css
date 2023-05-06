@@ -10,6 +10,7 @@
   --portfolio-background-button: #f4f4fd;
   --title-portfolio-color: #2e2f42;
   --prg-color: #434455;
+  --buttons-portfolio: #e7e9fc;
 }
 
 body {
@@ -28,12 +29,13 @@ body {
 }
 
 .menu {
-  list-style: none;
   display: flex;
-  gap: 40px;
-  padding: 24px 0;
 }
 .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
 }
 h1,
@@ -294,12 +296,16 @@ button {
   letter-spacing: 0.04em;
   color: var(--portfolio-button);
   background-color: var(--portfolio-background-button);
+  padding: 12px 24px;
+  border: 1px solid var(--buttons-portfolio);
+  border-radius: 4px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   cursor: pointer;
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .title-portfolio {
   font-weight: 500;
@@ -313,4 +319,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--prg-color);
+}
+.main-portfolio {
+  padding: 96px 0 120px;
+}
+.portfolio-list {
+  display: flex;
+  justify-content: cebter;
+  gap: 24px;
+  margin-bottom: 72px;
 }
