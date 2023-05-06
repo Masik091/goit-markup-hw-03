@@ -182,10 +182,13 @@ img {
   color: var(--sections-color);
   margin-bottom: 8px;
 }
-.efficiency-list {
+.section-two-list {
   display: flex;
   padding: 0;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+}
+.section-two-item {
   width: calc((100% - 72px) / 4);
 }
 
