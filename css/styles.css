@@ -64,6 +64,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px;
   color: #2e2f42;
 }
 
@@ -91,10 +92,11 @@ img {
 }
 
 .page-header-navigation {
-  list-style: none;
-  align-items: center;
-  column-gap: 76px;
   display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-end;
+  margin-right: auto;
 }
 .menu-header {
   display: flex;
@@ -127,7 +129,8 @@ img {
 
 .contact-links {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
+  padding: 24px;
 }
 .link {
   text-decoration: none;
