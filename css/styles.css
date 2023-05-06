@@ -86,7 +86,8 @@ img {
 }
 
 .menu-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-header-navigation {
@@ -102,8 +103,6 @@ img {
 
 .list {
   list-style: none;
-  display: flex;
-  column-gap: 40px;
 }
 
 /* Address */
