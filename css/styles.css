@@ -30,7 +30,7 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .list {
   display: flex;
@@ -74,11 +74,7 @@ img {
 }
 /* Header */
 .page-header {
-  background: #ffffff;
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 .menu-header-item {
@@ -87,8 +83,7 @@ img {
 }
 
 .menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-right: 40px;
 }
 
 .page-header-navigation {
@@ -130,7 +125,9 @@ img {
 .contact-links {
   display: flex;
   gap: 40px;
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .link {
   text-decoration: none;
