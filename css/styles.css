@@ -78,25 +78,24 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .menu-item {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 
 .page-header-navigation {
   list-style: none;
-  display: flex;
   align-items: center;
   column-gap: 76px;
 }
 
 .list {
   list-style: none;
-  display: flex;
-  gap: 40px;
 }
 
 /* Address */
 .menu-contacts {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .contacts {
@@ -116,7 +115,6 @@ img {
 
 .contact-links {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 .link {
