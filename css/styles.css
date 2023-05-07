@@ -219,7 +219,7 @@ img {
 /* Section-4 */
 .section-four-background-color {
   background-color: var(--section-four-back-ground-color);
-  padding: 120px;
+  padding: 120px 0;
 }
 .container-four {
   width: 1158px;
