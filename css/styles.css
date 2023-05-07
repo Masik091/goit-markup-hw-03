@@ -59,11 +59,11 @@ img {
 }
 
 .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
   color: #2e2f42;
 }
 
@@ -75,20 +75,12 @@ img {
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-}
-.menu-header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.menu-item {
-  margin-right: 40px;
+  padding: 30px 0;
 }
 
 .page-header-navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
   justify-content: flex-end;
   margin-right: auto;
 }
@@ -113,7 +105,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--contact-color);
   margin-left: auto;
-  margin-right: 40px;
 }
 
 .contacts:hover,
@@ -123,9 +114,6 @@ img {
 
 .contact-links {
   display: flex;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   gap: 40px;
 }
 .link {
@@ -143,8 +131,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--page-logo-color);
+}
+.header-logo {
   margin-right: 76px;
-  margin-bottom: 16px;
 }
 .logos {
   color: #2e2f42;
@@ -178,6 +167,7 @@ img {
 }
 /* Section-2 */
 .hidden-title {
+  display: none;
 }
 .title-two {
   font-weight: 500;
@@ -196,7 +186,16 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.text-item-section-two {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* Section-3 */
+.section-three {
+  padding-bottom: 95px;
+}
 .title-three {
   font-size: 36px;
   line-height: 1.11;
@@ -210,14 +209,16 @@ img {
   display: flex;
   padding: 0;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 .section-three-item {
   width: calc((100% - 48px) / 3);
+  margin: auto;
+  padding: auto;
 }
 /* Section-4 */
 .section-four-background-color {
   background-color: var(--section-four-back-ground-color);
+  padding-top: 145px;
 }
 .container-four {
   width: 1158px;
@@ -239,6 +240,7 @@ img {
 .company-employees {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  text-align: center;
   width: calc((100% - 72px) / 4);
 }
 .title-employees {
@@ -287,13 +289,14 @@ button {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
 .text-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-paragraf-color);
   padding: 0;
-  text-align: justify;
+  text-align: center;
 }
 .footer-color {
   color: #f4f4fd;
@@ -301,6 +304,10 @@ button {
 .footer-paragraph {
   color: #f4f4fd;
   max-width: 264px;
+  line-height: 1.5;
+}
+.footer-logo {
+  margin-bottom: 16px;
 }
 
 /* Portfolio */
@@ -351,7 +358,6 @@ button {
   list-style: none;
   display: flex;
   column-gap: 24px;
-  padding-bottom: 120px;
   flex-wrap: wrap;
   row-gap: 48px;
 }
