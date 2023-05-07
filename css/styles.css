@@ -191,7 +191,6 @@ img {
   display: flex;
   padding: 0;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .section-two-item {
   width: calc((100% - 72px) / 4);
@@ -294,7 +293,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--first-paragraf-color);
   padding: 0;
-  text-align: center;
+  text-align: justify;
 }
 .footer-color {
   color: #f4f4fd;
